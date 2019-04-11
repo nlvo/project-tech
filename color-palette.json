@@ -1,0 +1,126 @@
+[
+  {
+    "paletteName": "Cinderella Blue",
+    "swatches": [
+      {
+        "name": "cinderella-900",
+        "color": "033F49"
+      },
+      {
+        "name": "cinderella-800",
+        "color": "04687C"
+      },
+      {
+        "name": "cinderella-700",
+        "color": "0C8FA6"
+      },
+      {
+        "name": "cinderella-600",
+        "color": "0EBEDD"
+      },
+      {
+        "name": "cinderella-500",
+        "color": "68E8FF"
+      },
+      {
+        "name": "cinderella-400",
+        "color": "82ECF8"
+      },
+      {
+        "name": "cinderella-300",
+        "color": "AFF6F8"
+      },
+      {
+        "name": "cinderella-200",
+        "color": "D1F9FA"
+      },
+      {
+        "name": "cinderella-100",
+        "color": "F1FDFE"
+      }
+    ]
+  },
+  {
+    "paletteName": "Concrete",
+    "swatches": [
+      {
+        "name": "concrete-900",
+        "color": "21262C"
+      },
+      {
+        "name": "concrete-800",
+        "color": "374048"
+      },
+      {
+        "name": "concrete-700",
+        "color": "4F5964"
+      },
+      {
+        "name": "concrete-600",
+        "color": "657381"
+      },
+      {
+        "name": "concrete-500",
+        "color": "7E8C9A"
+      },
+      {
+        "name": "concrete-400",
+        "color": "99A6B2"
+      },
+      {
+        "name": "concrete-300",
+        "color": "B5BFC9"
+      },
+      {
+        "name": "concrete-200",
+        "color": "D2D9E0"
+      },
+      {
+        "name": "concrete-100",
+        "color": "F0F2F5"
+      }
+    ]
+  },
+  {
+    "paletteName": "gold",
+    "swatches": [
+      {
+        "name": "gold-900",
+        "color": "484005"
+      },
+      {
+        "name": "gold-800",
+        "color": "786B07"
+      },
+      {
+        "name": "gold-700",
+        "color": "A29110"
+      },
+      {
+        "name": "gold-600",
+        "color": "D8C00E"
+      },
+      {
+        "name": "gold-500",
+        "color": "FFE41A"
+      },
+      {
+        "name": "gold-400",
+        "color": "FFF01A"
+      },
+      {
+        "name": "gold-300",
+        "color": "FFF980"
+      },
+      {
+        "name": "gold-200",
+        "color": "FCF8B6"
+      },
+      {
+        "name": "gold-100",
+        "color": "FFFEE5"
+      }
+    ]
+  }
+]
+
