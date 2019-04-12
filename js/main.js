@@ -1,24 +1,19 @@
-var like = document.querySelector('.card__btn--like'),
+var like = document.querySelectorAll('.card__btn--like'),
     card = document.querySelectorAll('article'),
-    cardContainer = document.querySelector('.matches');
+    cardContainer = document.querySelector('.matches'),
+    form = document.querySelector('form'),
     body = document.querySelector('body');
-    
     body.className += 'js-enabled';
-    
-function nextProfile() {
-    for(var i = 0; i < card.length; i++){
-        if(card[0].classList.contains('show')){
-            // console.log(card[i].classList);
-            card[0].remove();
-        }
-    }
-    
-    
 
-    // for (let i = 0; i < 1; i++) {
-    //     // current = card[0];
-        
-    // }
+function likedProfile(event) {
+    event.currentTarget.parentNode.parentNode.parentNode.parentNode.remove();
 }
 
-like.addEventListener('click', nextProfile);
+for (var i = 0; i < like.length; i++) {
+    like[i].addEventListener('click', function (event) {
+        event.preventDefault();
+        likedProfile(event)    
+    }, false);
+}
+
+// https://stackoverflow.com/questions/46665554/remove-parent-element-on-click-with-plain-javascript
